@@ -1,0 +1,44 @@
+div.quiz {
+    display: flex;
+}
+
+div.question {
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.rules {
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.rules > p {
+    margin-left: 10px;
+}
+
+button.passAnswer {
+    height: 50px;
+    width: 450px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    display: list-item;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+button.passAnswer:hover {
+    opacity: 1;
+}

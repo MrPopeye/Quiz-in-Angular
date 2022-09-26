@@ -1,0 +1,15 @@
+<div class="quiz">
+    <div class="rules">
+        <p>Regulament și Informații:</p>
+        <p>1. Pentru a trece testul trebuie să răspunzi corect la minim 8 din 10 întrebări.</p>
+        <p>2. Atunci când răspunzi greșit ești informat.</p>
+        <p>3. Nu există un timer, dar dacă cauți răspunsul corect în altă parte ești un loser :(</p>
+        <p>4. Have fun :)</p>
+    </div>
+    <div class="question">
+        <!--<div class="status">Current Status: {{currentStatus}}</div> DEBUG: To see the current number of question-->
+        <div class="points">Puncte acumulate: {{correctAnswers}}</div>
+        <div class="Quest">Întrebare: {{questions[currentQuestion].Quest}}</div>
+        <button class="passAnswer" *ngFor="let question of questions[currentQuestion].Answer" (click)="checkAnswer(question.Value)">{{question.Answ}}</button>   
+    </div>
+</div>

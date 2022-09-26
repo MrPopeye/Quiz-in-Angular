@@ -1,0 +1,8 @@
+h1.QuizTitle {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
