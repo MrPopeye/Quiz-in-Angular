@@ -1,7 +1,3 @@
 Screenshot:
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://prnt.sc/orL8r91cOHzK">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
+![alt text]([http://url/to/img.png](https://prnt.sc/orL8r91cOHzK))
 <img src="https://prnt.sc/orL8r91cOHzK">
