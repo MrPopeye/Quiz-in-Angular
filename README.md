@@ -1,3 +1,3 @@
 Screenshot:
-![alt text](https://prnt.sc/orL8r91cOHzK)
+<img src="Screenshots/screenshot.png">
 
